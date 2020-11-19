@@ -29,14 +29,14 @@ $tweaks = @(
 	"CreateRestorePoint",
 	
 	### Chris Titus Tech Additions
-	"TitusRegistryTweaks",
-	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"Install7Zip",
-	"InstallNotepadplusplus",
-	"InstallIrfanview",
-	"InstallVLC",
-	"InstallAdobe",
-	"InstallBrave",
+	#"TitusRegistryTweaks",
+	#"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
+	#"Install7Zip",
+	#"InstallNotepadplusplus",
+	#"InstallIrfanview",
+	#"InstallVLC",
+	#"InstallAdobe",
+	#"InstallBrave",
 	# "ChangeDefaultApps", # Removed due to issues with steam and resetting default apps
 
 	### Windows Apps
@@ -157,8 +157,8 @@ $tweaks = @(
     # "EnableOneDrive",
 	"UninstallMsftBloat",           # "InstallMsftBloat",
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
-	# "UninstallWindowsStore",      # "InstallWindowsStore",
-	# "DisableXboxFeatures",          # "EnableXboxFeatures",
+	 "UninstallWindowsStore",      # "InstallWindowsStore",
+	 "DisableXboxFeatures",          # "EnableXboxFeatures",
 	"DisableAdobeFlash",            # "EnableAdobeFlash",
 	"InstallMediaPlayer", 		# "UninstallMediaPlayer",
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
